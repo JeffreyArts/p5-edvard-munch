@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdfdfd;
+}
+
+canvas {
+  display: block;
+  aspect-ratio: 1024/1305;
+  max-width: 80vw;
+  max-height: calc(100vh - 48px);
+  width: auto !important;
+  height: auto !important;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 4px 6px 8px rgba(0,0,0,.18);
+  border: 4px solid #fff;
+  border-radius: 8px;
+}
+
+label {
+  z-index: 2;
+  position: absolute;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  bottom: 20px;
+  right: 20px;
+}
