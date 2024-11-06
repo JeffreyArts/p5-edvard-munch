@@ -124,3 +124,7 @@ document.addEventListener("keyup", closeMouth)
 // Event listeners voor muis
 document.addEventListener("mousedown", openMouth)
 document.addEventListener("mouseup", closeMouth)
+
+// Event listeners voor touch events
+document.addEventListener("touchstart", openMouth)
+document.addEventListener("touchend", closeMouth)
